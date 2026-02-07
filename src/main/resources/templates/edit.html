@@ -1,0 +1,17 @@
+<h2>Edit Student</h2>
+
+<form action="/update" method="post">
+
+    <input type="hidden" name="id" th:value="${student.id}">
+
+    Name:
+    <input name="name" th:value="${student.name}"><br>
+
+    Email:
+    <input name="email" th:value="${student.email}"><br>
+
+    Course:
+    <input name="course" th:value="${student.course}"><br>
+
+    <button type="submit">Update</button>
+</form>
