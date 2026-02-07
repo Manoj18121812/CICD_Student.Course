@@ -1,0 +1,5 @@
+com/example/StudentCrud/Service/StudentService.class
+com/example/StudentCrud/Entity/Student.class
+com/example/StudentCrud/Repository/StudentRepository.class
+com/example/StudentCrud/StudentCrudApplication.class
+com/example/StudentCrud/Controller/StudentController.class
